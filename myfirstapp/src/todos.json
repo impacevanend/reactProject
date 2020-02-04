@@ -1,34 +1,24 @@
 {
-    "todos":[
+  "todos": [
+    {
+      "title": "Task 1",
+      "responsible": "Mark",
+      "description": "lorem impsun",
+      "priority": "low"
+    },
 
-        {
-            "title":"Task 1",
-            "responsible":"Mark",
-            "description": "lorem impsun",
-            "priority":"low"
-        },
+    {
+      "title": "Task 2",
+      "responsible": "Ryan",
+      "description": "lorem impsun",
+      "priority": "medium"
+    },
 
-        {
-            "title":"Task 2",
-            "responsible":"Ryan",
-            "description": "lorem impsun",
-            "priority":"medium"
-        },
-
-        {
-            "title":"Task 3",
-            "responsible":"Bronco",
-            "description": "lorem impsun",
-            "priority":"high"
-        },
-
-        {
-            "title":"Task 4",
-            "responsible":"Maria",
-            "description": "lorem impsun",
-            "priority":"low"
-        }
-
-
-    ]
+    {
+      "title": "Task 3",
+      "responsible": "Bronco",
+      "description": "lorem impsun",
+      "priority": "high"
+    }
+  ]
 }

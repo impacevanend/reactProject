@@ -26,8 +26,9 @@ class App extends Component {
               {todo.priority}
             </span>
           </div>
-          <div className="card-name">
+          <div className="card-body">
             <p>{todo.description}</p>
+            <p><mark>{todo.responsible}</mark></p>
           </div>
         </div>
         </div>
@@ -39,6 +40,9 @@ class App extends Component {
         <nav className="navbar navbar-dark bg-dark">
           <a href="*" className="text-white">
             tasks
+            <span className="badge badge-pill badge-light ml-2">
+              {this.state.todos.length}
+            </span>
           </a>
         </nav>
 
