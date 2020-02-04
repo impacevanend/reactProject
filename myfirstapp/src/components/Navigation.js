@@ -10,7 +10,11 @@ class Navigation extends Component{
 
     return(
         <nav className="navbar navbar-dark bg-dark">
-        <a href="*" className="text-white">Tasks</a>
+        <a href="*" className="text-white">
+            
+            {this.props.titulo}
+
+        </a>
         </nav>
     )
 

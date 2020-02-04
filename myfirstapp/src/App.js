@@ -1,14 +1,21 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Navigation from './components/Navigation'
+import {todos} from './todos.json'
+//import Navigation from "./components/Navigation";
+
+console.log(todos);
+
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
-      <Navigation/>
-      
+      <nav className="navbar navbar-dark bg-dark">
+        <a href="*" className="text-white">
+          
+        </a>
+      </nav>
+
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
