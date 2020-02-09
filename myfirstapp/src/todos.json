@@ -19,6 +19,12 @@
       "responsible": "Bronco",
       "description": "lorem impsun",
       "priority": "high"
+    },
+    {
+      "title": "Task 3",
+      "responsible": "Bronco",
+      "description": "lorem impsun",
+      "priority": "high"
     }
   ]
 }
